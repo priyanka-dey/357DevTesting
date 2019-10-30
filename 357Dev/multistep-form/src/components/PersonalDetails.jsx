@@ -22,6 +22,7 @@ class PersonalDetails extends Component{
             <Form.Field>
                 <label>Total Points</label>
                 <input placeholder='e.g. 100'
+                type="number"
                 onChange={this.props.handleChange('totalPoints')}
                 defaultValue={values.totalPoints}
                 />

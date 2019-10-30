@@ -23,7 +23,7 @@ class UserDetails extends Component{
                     />
                 </Form.Field>
                 <Form.Field>
-                    <label>Projects (maybe on another ptotalPoints of the form)</label>
+                    <label>Projects (maybe on another page of the form)</label>
                     <input
                     placeholder='Here this really needs to be a table of values haha'
                     onChange={this.props.handleChange('projects')}
